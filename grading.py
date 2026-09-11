@@ -1,6 +1,8 @@
 marks = int(input("Enter your marks: "))
 
-if marks >= 90:
+if marks > 100 or marks <0:
+    print("invalid Marks")
+elif marks >= 90:
     print("Grade O")
 elif marks >= 80:
     print("Grade A")
