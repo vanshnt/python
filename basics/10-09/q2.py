@@ -2,9 +2,8 @@
 
 list = [30, "Vansh", 29, 84, "python", "java", 65]
 
-#find the highest number in the list
+#seprete and make and instance of the list with integers and max checks the max
 high = max(value for value in list if isinstance(value, int))
-
 
 #split the list at the position of the highest number
 split = list.index(high)
