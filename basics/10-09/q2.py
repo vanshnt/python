@@ -12,4 +12,3 @@ right = list[split:]
 
 print(left)
 print(right)
-
